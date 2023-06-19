@@ -1,0 +1,150 @@
+site_name: FormationFlight
+site_url: https://www.formationflight.org/
+site_author: FormationFlight Authors
+site_description: >-
+  FormationFlight provides FPV pilots with inter-UAS positioning & telemetry
+  enabling formation flights, chase footage, and ground station coordination
+  with ease.
+
+# Repository
+repo_name: FormationFlight/FormationFlight
+repo_url: https://github.com/FormationFlight/FormationFlight/releases/
+edit_uri: "https://github.com/FormationFlight/Docs/tree/master/docs"
+
+# Copyright
+copyright: Copyright &copy; 2023 FormationFlight Authors
+
+# Configuration
+theme:
+  name: material
+  #custom_dir: overrides
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: formationflight
+      accent: formationflight
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      default: formationflight-dark
+      primary: formationflight-dark
+      accent: formationflight-dark
+  font:
+    text: Roboto
+    code: Roboto Mono
+  #favicon: assets/favicon.png
+  #logo: assets/images/logotype.svg
+  icon:
+    logo: logo
+
+plugins:
+  search:
+    lang: en
+  tags: { }
+  social:
+    cards_color:
+      fill: "#4361AA"
+    cards_font: PT Sans
+
+extra_css:
+        #- assets/stylesheets/main.css
+        #- assets/stylesheets/colors.css
+
+extra:
+  analytics:
+    #provider: google
+    #property: G-VMF2B5BYJZ
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    analytics:
+      name: Google Analytics
+    actions:
+      - accept
+      - manage
+      - reject
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FormationFlight
+      name: See the Github Repo
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/npaX3VxQjh
+      name: Check out the Discord
+  generator: true
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: FormationFlight
+      repo: FormationFlight
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+          kwds:
+            case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+
+extra_javascript:
+
+#INHERIT: redirects.yml
