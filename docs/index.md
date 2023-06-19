@@ -1,6 +1,6 @@
 # FormationFlight
 
 
-## Setup
+## Who is FormationFlight for?
 
-<!--TODO-->
+FormationFlight runs in tandem with your flight control software (Betaflight, iNav, or Ardupilot). It relays information about UAVs in the area to the flight controller for display on the OSD. FormationFlight uses LoRa or ESPNOW to broadcast position, altitude, speed and aircraft name, and listens for other UAVs so your flight controller's OSD can display this information.
