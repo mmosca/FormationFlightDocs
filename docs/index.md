@@ -1,6 +1,12 @@
+---
+---
 # FormationFlight
 
+Open-Source Inter-UAS Positioning & Telemetry for FPV Pilots
 
-## Who is FormationFlight for?
+---
 
-FormationFlight runs in tandem with your flight control software (Betaflight, iNav, or Ardupilot). It relays information about UAVs in the area to the flight controller for display on the OSD. FormationFlight uses LoRa or ESPNOW to broadcast position, altitude, speed and aircraft name, and listens for other UAVs so your flight controller's OSD can display this information.
+[Quick Start :fontawesome-solid-rocket:](/getting-started){ .md-button .md-button--primary }
+[Download Firmware :fontawesome-solid-microchip:](https://github.com/FormationFlight/FormationFlight/releases/latest){ .md-button }
+[Join our Discord :fontawesome-brands-discord:](https://discord.gg/npaX3VxQjh){ .md-button }
+
