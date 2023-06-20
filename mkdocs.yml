@@ -144,7 +144,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+  - Quick Start: getting-started.md
+  - Info:
+    - WiFi: wifi.md
+  - FAQ: faq.md
 
 extra_javascript:
 
