@@ -51,6 +51,8 @@ iNav includes native support for FormationFlight. Follow their documentation on 
 
 As of 2023-06, Ardupilot does not yet natively support FormationFlight. However, the FormationFlight development team has an early release fork of Ardupilot which supports FormationFlight, available [here](https://github.com/MUSTARDTIGERFPV/Ardupilot). Be warned that this is prerelease software. Assume that it will crash your plane, kick your dog, and set your house on fire. With that in mind, the developers have been flying this modified version for a few months now without issue.
 
+![Ardupilot Radar Screenshot](/assets/images/image-12.png)
+
 ### Betaflight
 
 As of 2023-06, Betaflight does not yet natively support FormationFlight. However, the FormationFlight development team has an early release fork of Betaflight which supports FormationFlight, available [here](https://github.com/MUSTARDTIGERFPV/Betaflight). Be warned that this is prerelease software. Assume that it will crash your quad, kick your dog, and set your house on fire. With that in mind, the developers have been flying this modified version for a few months now without issue.
