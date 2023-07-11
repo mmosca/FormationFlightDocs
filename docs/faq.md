@@ -27,6 +27,16 @@ FormationFlight started as a fork of [iNav Radar by OlivierC](https://github.com
 
 You'll need a small radio attached to your flight controller that communicates with other FormationFlight users. The preferred hardware choice are 2.4GHz receivers intended for the [ExpressLRS](https://github.com/ExpressLRS/ExpressLRS) project. These receivers are extremely small (10mm x 10mm), lightweight (0.5g), and inexpensive ($10 USD) compared to other hardware choices. They communicate over 2.4GHz LoRa and can achieve ranges of 3-5km easily, with some hardware capable of significantly more.
 
+## Does this support DJI OSD?
+
+*Yesish*. FormationFlight's OSD support is flight controller-specific. All three of the supported platforms will work with a full MSP OSD, like [FPV.WTF's MSP-OSD](https://github.com/fpv-wtf/msp-osd), Walksnail, DJI O3, or HDZero.
+
+*However*, a Caddx Vista system will not work without [FPV.WTF's MSP-OSD](https://github.com/fpv-wtf/msp-osd).
+
+## Is this RemoteID?
+
+**NO**. FormationFlight is very fundamentally distinct from Remote ID. FormationFlight uses a completely different format to Remote ID, and supports [encryption](/advanced/#encryption) for additional privacy if so desired. At this time, there are **no plans** to support Remote ID payloads in FormationFlight. If that is a feature we consider in the future, it will be **strictly opt-in, off by default**.
+
 ## I need help, where can I find more information?
 
 Join our friendly Discord server! FormationFlight developers and users hang out in \#help-and-support 

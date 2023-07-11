@@ -55,7 +55,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   #favicon: assets/favicon.png
-  #logo: assets/images/logotype.svg
+  logo: assets/images/logo.png
   icon:
     logo: logo
 
@@ -74,8 +74,8 @@ extra_css:
 
 extra:
   analytics:
-    #provider: google
-    #property: G-VMF2B5BYJZ
+    provider: google
+    property: G-03DXJLXJRL
   consent:
     title: Cookie consent
     description: >-
@@ -144,9 +144,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Quick Start: getting-started.md
+  - Quick Start:
+    - Getting Started: getting-started.md
+    - Flight Controller Setup:
+      - iNav: flight-controller/inav.md
+      - Ardupilot: flight-controller/ardupilot.md
+      - Betaflight: /getting-started/#betaflight
+    - Troubleshooting: troubleshooting.md
   - Info:
     - WiFi: wifi.md
+    - Advanced Topics: advanced/index.md
   - FAQ: faq.md
 
 extra_javascript:

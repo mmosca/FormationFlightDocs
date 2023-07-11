@@ -45,17 +45,27 @@ FormationFlight is designed to require minimal configuration of its own. Your fl
 
 ### iNav
 
+[More Info :fontawesome-solid-arrow-right:](/flight-controller/inav){ .md-button }
+
 iNav includes native support for FormationFlight. Follow their documentation on enabling the HUD [here](https://github.com/iNavFlight/inav/wiki/OSD-Hud-and-ESP32-radars#esp32-lora-modem-inav-radar-project) and **don't forget to enable the crosshair OSD element**.
 
-### Ardupilot
+The Radar OSD can be seen in the middle of this screenshot (indicating peer "B")
+![ArduPilot Radar Screenshot](/assets/images/walksnail_and_inav.PNG)
 
-As of 2023-06, Ardupilot does not yet natively support FormationFlight. However, the FormationFlight development team has an early release fork of Ardupilot which supports FormationFlight, available [here](https://github.com/MUSTARDTIGERFPV/Ardupilot). Be warned that this is prerelease software. Assume that it will crash your plane, kick your dog, and set your house on fire. With that in mind, the developers have been flying this modified version for a few months now without issue.
+### ArduPilot
 
-![Ardupilot Radar Screenshot](/assets/images/image-12.png)
+[More Info :fontawesome-solid-arrow-right:](/flight-controller/ardupilot){ .md-button }
+
+As of 2023-06, ArduPilot does not yet natively support FormationFlight. However, the FormationFlight development team has an early release fork of ArduPilot which supports FormationFlight, available [here](https://github.com/MUSTARDTIGERFPV/ArduPilot). Be warned that this is prerelease software. Assume that it will crash your plane, kick your dog, and set your house on fire. With that in mind, the developers have been flying this modified version for a few months now without issue.
+
+The Radar OSD can be seen in the bottom-left of this screenshot (beginning with "C")
+![ArduPilot Radar Screenshot](/assets/images/image-12.png)
 
 ### Betaflight
 
 As of 2023-06, Betaflight does not yet natively support FormationFlight. However, the FormationFlight development team has an early release fork of Betaflight which supports FormationFlight, available [here](https://github.com/MUSTARDTIGERFPV/Betaflight). Be warned that this is prerelease software. Assume that it will crash your quad, kick your dog, and set your house on fire. With that in mind, the developers have been flying this modified version for a few months now without issue.
+
+Configuration of this fork is left as an exercise to the reader. OSD element positioning is CLI-only and hasn't been tested / polished nearly as much as Ardupilot. If you have questions, [Join us on the Discord](https://discord.gg/npaX3VxQjh).
 
 
 ## OTA Updates

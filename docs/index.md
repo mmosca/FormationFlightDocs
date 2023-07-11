@@ -1,5 +1,6 @@
 ---
 ---
+![FormationFlight Logo](/assets/images/logo.png)
 # FormationFlight
 
 Open-Source Inter-UAS Positioning & Telemetry for FPV Pilots
