@@ -152,6 +152,8 @@ nav:
       - Betaflight: /getting-started/#betaflight
     - Troubleshooting: troubleshooting.md
   - Info:
+    - General Info: info.md
+    - Hardware: hardware.md
     - WiFi: wifi.md
     - Advanced Topics: advanced/index.md
   - FAQ: faq.md
