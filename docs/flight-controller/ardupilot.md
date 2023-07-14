@@ -18,8 +18,7 @@ Set the Ardupilot parameter `RADAR_TYPE`. This must be set to `1` for MSP Radar,
 
 ### Set the serial port for MSP
 
-Find the correct `SERIALX_PROTOCOL` instance for the serial port on which your Radar module is connected. You'll then set `SERIALX_PROTOCOL` to `32` for MSP
-
+Find the correct `SERIALX_PROTOCOL` instance for the serial port on which your Radar module is connected. You'll then set `SERIALX_PROTOCOL` to `32` for MSP. `SERIALX_BAUD` and other related settings should be kept at their default, which is 115200 baud.
 
 ### Enable the Radar OSD
 

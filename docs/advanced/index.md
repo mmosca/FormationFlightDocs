@@ -43,3 +43,22 @@ If you wish to keep your own group separate from other FormationFlight groups, y
 ## WiFi Flashing
 
 FormationFlight supports WiFi OTA firmware upgrades through the standard espota protocol. The easiest way to use this function is to choose the "Upload" action on any of the targets ending in `_via_WiFi` in PlatformIO, but a tool to make OTA flashing easier is planned.
+
+## Useful snippets
+
+Since certain parameters of FormationFlight can be changed via the HTTP API, certain snippets can be useful to copy-and-paste.
+
+```sh
+# Disable radio #1 (LoRa)
+curl -X POST http://192.168.4.1/radiomanager/radio_set_enabled -d "index=1&status=false"
+# Enable radio #1 (LoRa)
+curl -X POST http://192.168.4.1/radiomanager/radio_set_enabled -d "index=1&status=true"
+# Begin spoofing GPS location of this FF radio
+curl -X POST http://192.168.4.1/gnssmanager/spoof -d "lat=45.171546&lon=5.722387"
+# Begin spoofing peers
+curl -X POST http://192.168.4.1/mspmanager/spoof
+# Reboot the FormationFlight radio
+curl -X POST http://192.168.4.1/system/reboot
+# Put the FormationFlight radio into bootloader mode
+curl -X POST http://192.168.4.1/system/bootloader
+```
