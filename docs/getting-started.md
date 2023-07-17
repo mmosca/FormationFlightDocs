@@ -48,6 +48,8 @@ You can download an easy to use ESP flasher tool from [Jason8266's ESP\_Flasher 
 
 A simple way to install FormationFlight is by downloading pre-built binaries from [GitHub Releases](https://github.com/FormationFlight/FormationFlight/releases/latest). Choose the correct binary file for your board (for example, `expresslrs_rx_2400` for a 2.4GHz ExpressLRS receiver without PA/LNA like the HappyModel EP1/EP2).
 
+See the list of [supported hardware](/hardware/) for other targets.
+
 [Download Firmware :fontawesome-solid-microchip:](https://github.com/FormationFlight/FormationFlight/releases/latest){ .md-button }
 
 #### Flash your board

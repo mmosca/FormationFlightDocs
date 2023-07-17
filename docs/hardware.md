@@ -8,13 +8,13 @@ FormationFlight supports many targets for different hardware. If you don't see y
 
 Highly recommended for new users. The smallest, lightest, most affordable way to get started with FormationFlight.
 
-| Target Name                           | Radios              | Supported Hardware                                                                          |
-|---------------------------------------|---------------------|---------------------------------------------------------------------------------------------|
-| `expresslrs_rx_2400`                  | 2.4GHz LoRa, ESPNOW | HappyModel EP1/EP2, RadioMaster RP1/RP2 BetaFPV Lite, Flywoo EL24E, Foxeer Lite, GEPRC Nano |
-| `expresslrs_rx_2400_PA`               | 2.4GHz LoRa, ESPNOW | BetaFPV Nano, Jumper AION Nano, Matek R24-S                                                 |
-| `expresslrs_rx_2400_AntennaDiversity` | 2.4GHz LoRa, ESPNOW | Matek R24-D, RadioMaster RP3                                                                |
-| `expresslrs_rx_868`                   | 868MHz LoRa, ESPNOW | HappyModel ES900RX                                                                          |
-| `expresslrs_rx_915`                   | 915MHz LoRa, ESPNOW | HappyModel ES900RX                                                                          |
+| Target Name                           | Radios              | Supported Hardware                                                                                          |
+|---------------------------------------|---------------------|-------------------------------------------------------------------------------------------------------------|
+| `expresslrs_rx_2400`                  | 2.4GHz LoRa, ESPNOW | HappyModel EP1/EP2, RadioMaster RP1/RP2 BetaFPV Lite, Flywoo EL24E, Foxeer Lite, GEPRC Nano, Matek F405-WTE |
+| `expresslrs_rx_2400_PA`               | 2.4GHz LoRa, ESPNOW | BetaFPV Nano, Jumper AION Nano, Matek R24-S                                                                 |
+| `expresslrs_rx_2400_AntennaDiversity` | 2.4GHz LoRa, ESPNOW | Matek R24-D, RadioMaster RP3                                                                                |
+| `expresslrs_rx_868`                   | 868MHz LoRa, ESPNOW | HappyModel ES900RX                                                                                          |
+| `expresslrs_rx_915`                   | 915MHz LoRa, ESPNOW | HappyModel ES900RX                                                                                          |
 
 ### Legacy Targets
 
