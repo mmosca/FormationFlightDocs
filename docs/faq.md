@@ -33,6 +33,10 @@ You'll need a small radio attached to your flight controller that communicates w
 
 *However*, a Caddx Vista system will not work without [FPV.WTF's MSP-OSD](https://github.com/fpv-wtf/msp-osd).
 
+## Does this support TBS Crossfire, IRC Ghost, TBS Tracer, DragonLink, FrSky, EzUHF, etc?
+
+FormationFlight is RC control link agnostic. FormationFlight is commonly used with ExpressLRS hardware since it's small, lightweight, and inexpensive, but it will work with whatever control link you like (or none at all!)
+
 ## Is this RemoteID?
 
 **NO**. FormationFlight is very fundamentally distinct from Remote ID. FormationFlight uses a completely different format to Remote ID, and supports [encryption](/advanced/#encryption) for additional privacy if so desired. At this time, there are **no plans** to support Remote ID payloads in FormationFlight. If that is a feature we consider in the future, it will be **strictly opt-in, off by default**.
