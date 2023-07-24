@@ -16,7 +16,7 @@ Follow the [iNav documentation](https://github.com/iNavFlight/inav/wiki/OSD-Hud-
 ### Walksnail
 
 The Radar OSD can be seen in the middle of this screenshot (indicating peer "B")
-![ArduPilot Radar Screenshot](/assets/images/walksnail_and_inav.PNG)
+![ArduPilot Radar Screenshot](../assets/images/walksnail_and_inav.PNG)
 
 ### Analog
 
